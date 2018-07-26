@@ -1,4 +1,4 @@
-const origArray = [10, 5, 8, 4, 1, 7, 11]
+const origArray = [10, 5, 8, 55, 4, 1, 2890, 7, 11]
 
 let array = [...origArray]
 let numSwapped = 0
@@ -25,7 +25,7 @@ const bubble_sort = (array) => {
         resolve(array)
       }
 
-      // if no swapping stop looping
+      // if no swapping stop iteration
       if (!isSwapped) return
     }
   })
