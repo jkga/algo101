@@ -1,4 +1,4 @@
-const origArray = [10, 5, 8, 55, 4, 1, 2890, 7, 11, 150, 1024, 55]
+const origArray = [1, 2890, 7, 11, 15, 1024, 55, 73, 10, 9, 8, 55, 4, 70, 6789]
 
 let array = [...origArray]
 let numSwapped = 0
